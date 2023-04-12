@@ -1,13 +1,44 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+    background-color: black;
+    
 }
+.App{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.clac-wrapper{
+    background-color: white;
+    border-radius: 16px;
+    width: 400px;
+}
+.button-wrapper{
+    color: white;
+    height: 4em;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    background-color: #5a5a5a;
+    flex: 1;
+    margin: 4px;
+    border-radius: 25px ;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.row{
+    display: flex;
+}
+.input-wrapper{
+height: 10em;
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+flex-direction: column;
+}
+.result{
+flex: 1;
+font-size: 24;
+}
+.text{
+    flex: 1;
+    font-size: 24;
 }
