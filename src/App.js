@@ -2,7 +2,7 @@ import "./App.css";
 import Input from "./components/input";
 import Buttons from "./components/buttons";
 import { useState } from "react";
-import { evaluate } from "mathjs";
+/*import { evaluate } from "mathjs";*/
 import * as math from "mathjs";
 
 function App() {
